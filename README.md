@@ -1,5 +1,11 @@
 ﻿# RockPaperScissors-React-socketio-express
+Rock paper scissors game made with react, express and socket io.
 
+To Play:
+1.download and cd into frontend folder, run npm install then npm start to start.
+2. Cd into server folder, run npm install. Run nodemon index.js.
+3. Play the game. 
+4.(to play the game with friends, the server needs to be uploaded to netlify or something similar.
 
 
 Login Page:
