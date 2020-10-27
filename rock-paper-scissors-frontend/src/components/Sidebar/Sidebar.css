@@ -1,0 +1,52 @@
+.sidebar {
+	height: 100vh;
+	/* margin: 10px auto; */
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	border: 1px solid gold;
+}
+.join-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+.join-form > label {
+	/* color: mediumseagreen; */
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	width: 180px;
+	padding: 2px;
+	margin: 0 auto;
+}
+.join-input {
+	width: 180px;
+	height: 30px;
+	font-size: 24px;
+	margin: 5px auto;
+	padding: 2px;
+	border: 2px solid rgba(59, 39, 1, 0.824);
+	border-radius: 5px;
+}
+.join-btn {
+	width: 80px;
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	background-color: rgba(255, 0, 5, 0.8239670868347339);
+	color: white;
+	border: 2px solid seagreen;
+	border-radius: 5px;
+	font-family: arcade;
+}
+

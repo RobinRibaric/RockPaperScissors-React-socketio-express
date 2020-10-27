@@ -1,0 +1,28 @@
+.score-container {
+	max-width: 50px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    background-color: gold;
+	width: 50%;
+	border-radius: 5px;
+}
+.score {
+	padding: 2px;
+	font-weight: bolder;
+	font-size: 400;
+	background-color: gold;
+	border-radius: 5px;
+}
+.sw {
+	color:  rgba(2,0,36,0.927608543417367);
+}
+
+.sl {
+	color: red;
+}
+
+.scoreDivider {
+    background-color: #FF2D31;
+}

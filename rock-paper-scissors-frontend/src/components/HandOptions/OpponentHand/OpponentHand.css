@@ -1,0 +1,95 @@
+.handOptions__outerContainer {
+	width: 100%;
+	/* height: 20%; */
+	height: 140px;
+	margin: 0 auto;
+	padding: 4px;
+	display: flex;
+	flex: 1;
+	background-color: white;
+}
+.handOptions__innerContainer {
+	width: 60%;
+	/* height: 20%; */
+	height: 90%;
+	margin: 10px auto;
+	padding: 4px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+	border-radius: 5px;
+    border-style: double;
+    background-color: rgba(255,0,5,0.8239670868347339);
+	border-color: rgba(2,0,36,0.927608543417367);
+	
+}
+
+.handOptions__innerContainer.blue{
+	background-color: rgba(2,0,36,0.927608543417367);
+	border-color: rgba(255,0,5,0.8239670868347339);
+}
+.handOptions__innerContainer.red{
+	background-color: rgba(255,0,5,0.8239670868347339);
+	border-color: rgba(2,0,36,0.927608543417367);
+}
+
+
+
+.Hand {
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+    flex-direction: row;
+    border: 5px solid rgba(2,0,36,0.927608543417367);
+}
+
+
+
+img {
+	background-color: transparent;
+}
+.blue > img {
+	transform: scaleX(-1) scaleY(-1) scaleZ(-1) scaleY(-1) scaleZ(-1)
+		rotate(120deg);
+}
+
+.Hand > img {
+	height: 100%;
+	border-radius: 50%;
+	justify-content: center;
+	margin: 0px auto;
+	object-fit: contain;
+	max-width: 100px;
+}
+.active {
+	background-color: gold;
+}
+
+@media (min-width: 1024px) {
+	
+	.Hand {
+	width: 130px;
+	height: 130px;
+	}
+}
+
+@media (min-width: 1830px) {
+	
+	.Hand {
+	width: 250px;
+	height: 250px;
+	}
+}
+
+@media (min-width: 2090px) {
+	
+	.Hand {
+	width: 300px;
+	height: 300px;
+	}
+}
+
